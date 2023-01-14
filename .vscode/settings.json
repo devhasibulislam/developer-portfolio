@@ -2,8 +2,11 @@
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "cSpell.words": [
+    "arsha",
+    "Canim",
     "Hasibul",
     "hasibulislam",
+    "modarna",
     "pingback"
   ]
 }
