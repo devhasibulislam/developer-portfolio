@@ -10,13 +10,13 @@ export const navData = ["About", "Experience", "Works", "Contact"];
 // project data
 export const projects: ProjectTypes[] = [
   {
-    title: "Canim Blog",
+    title: "nLog",
     description:
-      "Contain real-time watches, likes and comments tracking. Individual admin and user dashboard with tags and posts CRUD prodigies. Also contain authentication like login, registration and forgot password system",
+      "Democratic Platform to write anti-political stuffs. an informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries (posts).",
     tech: ["MERN", "Front-end", "Back-end"],
-    code: "https://github.com/hasibulislam999/Nurui",
-    live: "https://nurui-csr.vercel.app/",
-    thumbnail: "canim-blog.png",
+    code: "https://github.com/hasibulislam999/9T5--nLog-blogs",
+    live: "https://9t5-nlog-blogs-client.vercel.app/",
+    thumbnail: "nLog.png",
     featured: true,
   },
 
@@ -24,11 +24,21 @@ export const projects: ProjectTypes[] = [
     title: "X-Beat Store",
     description:
       "Display products as slide-show. Cart each product and approach increment-decrement with checkout as demo. See product description. Filter all products based on suggested category.",
-    tech: ["Next js 13", "TypeScript", "React-Bootstrap 5"],
+    tech: ["React js", "SASS", "React Router", "React Swiper"],
     code: "https://github.com/hasibulislam999/xBeat-stable",
     live: "https://xbeat-stable.netlify.app/",
     thumbnail: "x-beat.png",
     featured: true,
+  },
+
+  {
+    title: "Canim Blog",
+    description:
+      "Real-time watches, likes and comments. Admin and user dashboard with CRUD prodigies. Authentication like login, registration and forgot password system",
+    tech: ["MERN", "Front-end", "Back-end"],
+    code: "https://github.com/hasibulislam999/Nurui",
+    live: "https://nurui-csr.vercel.app/",
+    thumbnail: "canim-blog.png",
   },
 
   {
@@ -69,6 +79,16 @@ export const projects: ProjectTypes[] = [
     code: "https://github.com/hasibulislam999/Portfolio",
     live: "https://pofo-portfolio.vercel.app/",
     thumbnail: "old-portfolio.png",
+  },
+
+  {
+    title: "GP Business",
+    description:
+      "A consulting template carefully crafted for designer, artists, company, photographer, videographer, architect etc. Gp also could easily be adapted to suit a wide range of websites.",
+    tech: ["HTML5", "CSS3", "JQuery-CDN", "AOS"],
+    code: "https://github.com/hasibulislam999/powerful-static-business",
+    live: "https://hasibulislam999.github.io/powerful-static-business/",
+    thumbnail: "gp-business.png",
   },
 
   {
