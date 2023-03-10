@@ -4,7 +4,7 @@ import { WorkedTypes } from "./types";
 export const worked_data: WorkedTypes[] = [
   {
     id: 0,
-    label: "Linkedin",
+    label: "GitHub",
     description: [
       "Write modern, performant, maintainable code for a diverse array of client and internal projects",
       "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Socket.io, Next js, React, WordPress, and Netlify",
@@ -12,12 +12,25 @@ export const worked_data: WorkedTypes[] = [
     ],
     deadline: "March 22 - present",
     title: "Full stack developer",
+    company: "GitHub",
+    url: "https://github.com/hasibulislam999",
+  },
+  {
+    id: 1,
+    label: "Linkedin",
+    description: [
+      "Write modern, performant, maintainable code for a diverse array of client and internal projects",
+      "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Socket.io, Next js, React, WordPress, and Netlify",
+      "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+    ],
+    deadline: "Aug 22 - present",
+    title: "Full stack developer",
     company: "Linkedin",
     url: "https://www.linkedin.com/in/hasibulislam999",
   },
   {
-    id: 1,
-    label: "Fiverr",
+    id: 2,
+    label: "StackOverflow",
     description: [
       "Write modern, performant, maintainable code for a diverse array of client and internal projects",
       "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Socket.io, Next js, React, WordPress, and Netlify",
@@ -25,12 +38,12 @@ export const worked_data: WorkedTypes[] = [
     ],
     deadline: "Aug 22 - present",
     title: "Full stack developer",
-    company: "Fiverr",
-    url: "https://fiverr.com/hasibulislam999",
+    company: "StackOverflow",
+    url: "https://stackoverflow.com/users/16820211/hasibul-islam",
   },
   {
     id: 2,
-    label: "Upwork",
+    label: "Facebook",
     description: [
       "Write modern, performant, maintainable code for a diverse array of client and internal projects",
       "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Socket.io, Next js, React, WordPress, and Netlify",
@@ -38,20 +51,7 @@ export const worked_data: WorkedTypes[] = [
     ],
     deadline: "Aug 22 - present",
     title: "Full stack developer",
-    company: "Upwork",
-    url: "https://www.upwork.com/freelancers/~010348caa6e1214162",
-  },
-  {
-    id: 2,
-    label: "Freelancer",
-    description: [
-      "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-      "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Socket.io, Next js, React, WordPress, and Netlify",
-      "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
-    ],
-    deadline: "Aug 22 - present",
-    title: "Full stack developer",
-    company: "Freelancer",
-    url: "https://www.freelancer.com/u/hasibulislam999",
+    company: "Facebook",
+    url: "https://www.facebook.com/hasibulislam999.dev/",
   },
 ];
