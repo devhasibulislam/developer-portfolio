@@ -12,7 +12,7 @@ export const worked_data: WorkedTypes[] = [
     ],
     deadline: "March 22 - present",
     title: "Full stack developer",
-    company: "GitHub",
+    company: "hasibulislam999",
     url: "https://github.com/hasibulislam999",
   },
   {
@@ -25,7 +25,7 @@ export const worked_data: WorkedTypes[] = [
     ],
     deadline: "Aug 22 - present",
     title: "Full stack developer",
-    company: "Linkedin",
+    company: "hasibulislam999",
     url: "https://www.linkedin.com/in/hasibulislam999",
   },
   {
@@ -38,7 +38,7 @@ export const worked_data: WorkedTypes[] = [
     ],
     deadline: "Aug 22 - present",
     title: "Full stack developer",
-    company: "StackOverflow",
+    company: "hasibulislam999",
     url: "https://stackoverflow.com/users/16820211/hasibul-islam",
   },
   {
@@ -51,7 +51,7 @@ export const worked_data: WorkedTypes[] = [
     ],
     deadline: "Aug 22 - present",
     title: "Full stack developer",
-    company: "Facebook",
+    company: "hasibulislam999",
     url: "https://www.facebook.com/hasibulislam999.dev/",
   },
 ];
