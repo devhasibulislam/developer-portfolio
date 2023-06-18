@@ -5,7 +5,7 @@ const Meta = () => {
       <link rel="canonical" href="https://hasibulislam999.vercel.app/"></link>
       <link rel="pingback" href="https://hasibulislam999.vercel.app/"></link>
 
-      <title> Hasibul Islam : Portfolio </title>
+      <title> Hasibul Islam • Portfolio </title>
 
       <meta name="description" content='Highly motivated and very passionate Full Stack Developer with three years of experience in Typescript, React js, Next js, Firebase, Tailwind CSS, Material UI, Node js, Express js, MongoDB' />
       <meta
@@ -18,7 +18,7 @@ const Meta = () => {
       <meta property="og:title" content='Hasibul Islam | Portfolio' />
       <meta property="og:description" content='Web Development Company, Best Web development agency, Web Development Services, Website Development Company, Website Development Services, Website Development Bangladesh, Web Development Bangladesh, Company, Services, Bangladesh, Flexsin, Flexsin Technologies' />
       <meta property="og:url" content='https://hasibulislam999.vercel.app/' />
-      <meta property="og:image" content='https://res.cloudinary.com/dho0rpn5a/image/upload/v1672826380/canim/2cdd6f4e20b34196_HI06-copy.jpg.jpg' />
+      <meta property="og:image" content='https://res.cloudinary.com/dho0rpn5a/image/upload/v1687018950/samples/Social_Image_rd28bz.png' />
       <meta property="og:type" content="website" />
 
       <meta property="article:publisher" content="https://www.facebook.com/hasibulislam999.dev" />
@@ -27,7 +27,7 @@ const Meta = () => {
       <meta name="twitter:site" content="@hasibulislam999" />
       <meta name="twitter:creator" content="@hasibulislam999" />
       <meta name="twitter:description" content='Highly motivated and very passionate Full Stack Developer with three years of experience in Typescript, React js, Next js, Firebase, Tailwind CSS, Material UI, Node js, Express js, MongoDB' />
-      <meta name="twitter:image" content='https://res.cloudinary.com/dho0rpn5a/image/upload/v1672826380/canim/2cdd6f4e20b34196_HI06-copy.jpg.jpg' />
+      <meta name="twitter:image" content='https://res.cloudinary.com/dho0rpn5a/image/upload/v1687018950/samples/Social_Image_rd28bz.png' />
     </>
   );
 };
