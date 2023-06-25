@@ -32,6 +32,9 @@ const Meta = () => {
         content="MERN Stack Developer, MERN Stack Development, Full Stack Developer, Full Stack Development, Lead Generation Strategies, Web Application Development, Frontend Development, Backend Development, React.js Development, Node.js Development, MongoDB Integration, Express.js Framework, Responsive Web Design, API Development, Database Management, User Interface Design, SEO Optimization, Content Marketing, Social Media Lead Generation, Email Marketing Campaigns"
       />
 
+      {/* bing site verification */}
+      <meta name="msvalidate.01" content="3538F5E1CA6F95ACFC8F6F72AC79A1BD" />
+
       {/* google site verification */}
       <meta
         name="google-site-verification"
