@@ -54,7 +54,7 @@ const Meta = () => {
       />
       <meta
         property="og:image"
-        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1687018950/samples/Social_Image_rd28bz.png"
+        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1687713608/samples/open_graph_image_zijy7c.png"
       />
       <meta property="og:image:alt" content="Your Image Alt Text" />
 
@@ -68,7 +68,7 @@ const Meta = () => {
       />
       <meta
         name="twitter:image"
-        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1687018950/samples/Social_Image_rd28bz.png"
+        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1687713608/samples/open_graph_image_zijy7c.png"
       />
 
       {/* <!-- Pinterest tags --> */}
@@ -80,7 +80,7 @@ const Meta = () => {
       />
       <meta
         name="pinterest:image"
-        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1687018950/samples/Social_Image_rd28bz.png"
+        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1687713608/samples/open_graph_image_zijy7c.png"
       />
 
       <meta
