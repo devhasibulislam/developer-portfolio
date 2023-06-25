@@ -35,7 +35,7 @@ const Meta = () => {
       {/* google site verification */}
       <meta
         name="google-site-verification"
-        content="3yNZMVW_AuwCoLV0wk7WxYfo2hsZ4J8nVspHQQ5vg30"
+        content="a9YED3RPV4EEe_SQwgGVhD6nvl_kjWsZUvJIYPt_q10"
       />
 
       {/* <!-- Open Graph tags for Facebook --> */}
