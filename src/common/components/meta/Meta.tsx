@@ -32,14 +32,14 @@ const Meta = () => {
         content="MERN Stack Developer, MERN Stack Development, Full Stack Developer, Full Stack Development, Lead Generation Strategies, Web Application Development, Frontend Development, Backend Development, React.js Development, Node.js Development, MongoDB Integration, Express.js Framework, Responsive Web Design, API Development, Database Management, User Interface Design, SEO Optimization, Content Marketing, Social Media Lead Generation, Email Marketing Campaigns"
       />
 
-      {/* bing site verification */}
-      <meta name="msvalidate.01" content="3538F5E1CA6F95ACFC8F6F72AC79A1BD" />
-
       {/* google site verification */}
       <meta
         name="google-site-verification"
         content="a9YED3RPV4EEe_SQwgGVhD6nvl_kjWsZUvJIYPt_q10"
       />
+
+      {/* bing site verification */}
+      <meta name="msvalidate.01" content="3538F5E1CA6F95ACFC8F6F72AC79A1BD" />
 
       {/* <!-- Open Graph tags for Facebook --> */}
       <meta
@@ -47,7 +47,10 @@ const Meta = () => {
         content="https://developer-hasibulislam.vercel.app/"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="Hasibul Islam • Portfolio" />
+      <meta
+        property="og:title"
+        content="Developer Hasibul Islam || Experienced Full Stack Developer || Lead Generation Expert"
+      />
       <meta
         property="og:description"
         content="Hasibul Islam is an experienced MERN Stack developer & Lead Generation expert. Builds dynamic web apps with seamless integration. Drives organic traffic, captures leads, and helps businesses thrive."
@@ -61,7 +64,10 @@ const Meta = () => {
       {/* <!-- Twitter Card tags --> */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@hasibulislam999" />
-      <meta name="twitter:title" content="Hasibul Islam • Portfolio" />
+      <meta
+        name="twitter:title"
+        content="Developer Hasibul Islam || Experienced Full Stack Developer || Lead Generation Expert"
+      />
       <meta
         name="twitter:description"
         content="Hasibul Islam is an experienced MERN Stack developer & Lead Generation expert. Builds dynamic web apps with seamless integration. Drives organic traffic, captures leads, and helps businesses thrive."
@@ -73,7 +79,10 @@ const Meta = () => {
 
       {/* <!-- Pinterest tags --> */}
       <meta name="pinterest-rich-pin" content="true" />
-      <meta name="pinterest:title" content="Hasibul Islam • Portfolio" />
+      <meta
+        name="pinterest:title"
+        content="Developer Hasibul Islam || Experienced Full Stack Developer || Lead Generation Expert"
+      />
       <meta
         name="pinterest:description"
         content="Hasibul Islam is an experienced MERN Stack developer & Lead Generation expert. Builds dynamic web apps with seamless integration. Drives organic traffic, captures leads, and helps businesses thrive."
