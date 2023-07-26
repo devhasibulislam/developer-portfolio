@@ -2,16 +2,10 @@ const Meta = () => {
   return (
     <>
       <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
-      <link
-        rel="canonical"
-        href="https://developer-hasibulislam.vercel.app/"
-      ></link>
-      <link
-        rel="pingback"
-        href="https://developer-hasibulislam.vercel.app/"
-      ></link>
+      <link rel="canonical" href="https://devhasibulislam.vercel.app/"></link>
+      <link rel="pingback" href="https://devhasibulislam.vercel.app/"></link>
 
-      <title> Hasibul Islam • Portfolio </title>
+      <title> Hasibul Islam - Portfolio </title>
 
       <meta name="author" content="Hasibul Islam" />
       <meta name="robots" content="index, follow" />
@@ -42,14 +36,11 @@ const Meta = () => {
       <meta name="msvalidate.01" content="3538F5E1CA6F95ACFC8F6F72AC79A1BD" />
 
       {/* <!-- Open Graph tags for Facebook --> */}
-      <meta
-        property="og:url"
-        content="https://developer-hasibulislam.vercel.app/"
-      />
+      <meta property="og:url" content="https://devhasibulislam.vercel.app/" />
       <meta property="og:type" content="website" />
       <meta
         property="og:title"
-        content="Developer Hasibul Islam || Experienced Full Stack Developer || Lead Generation Expert"
+        content="Hasibul Islam an experienced full stack developer & lead generation expert"
       />
       <meta
         property="og:description"
@@ -57,7 +48,7 @@ const Meta = () => {
       />
       <meta
         property="og:image"
-        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1687713608/samples/open_graph_image_zijy7c.png"
+        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1690344562/samples/devhasibulislam_Hasibul_Islam.png"
       />
       <meta property="og:image:alt" content="Your Image Alt Text" />
 
@@ -66,7 +57,7 @@ const Meta = () => {
       <meta name="twitter:site" content="@hasibulislam999" />
       <meta
         name="twitter:title"
-        content="Developer Hasibul Islam || Experienced Full Stack Developer || Lead Generation Expert"
+        content="Hasibul Islam an experienced full stack developer & lead generation expert"
       />
       <meta
         name="twitter:description"
@@ -74,14 +65,14 @@ const Meta = () => {
       />
       <meta
         name="twitter:image"
-        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1687713608/samples/open_graph_image_zijy7c.png"
+        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1690344562/samples/devhasibulislam_Hasibul_Islam.png"
       />
 
       {/* <!-- Pinterest tags --> */}
       <meta name="pinterest-rich-pin" content="true" />
       <meta
         name="pinterest:title"
-        content="Developer Hasibul Islam || Experienced Full Stack Developer || Lead Generation Expert"
+        content="Hasibul Islam an experienced full stack developer & lead generation expert"
       />
       <meta
         name="pinterest:description"
@@ -89,12 +80,12 @@ const Meta = () => {
       />
       <meta
         name="pinterest:image"
-        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1687713608/samples/open_graph_image_zijy7c.png"
+        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1690344562/samples/devhasibulislam_Hasibul_Islam.png"
       />
 
       <meta
         property="article:publisher"
-        content="https://www.linkedin.com/in/developer-hasibulislam/"
+        content="https://www.linkedin.com/in/devhasibulislam/"
       />
     </>
   );

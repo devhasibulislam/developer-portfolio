@@ -14,7 +14,7 @@ export const projects: ProjectTypes[] = [
     description:
       "Complete admin dashboard for a machine learning prediction website where you can manage users, predictions, and more.",
     tech: ["MERN", "Front-end", "Back-end"],
-    code: "https://github.com/developer-hasibulislam/finanseer-clone",
+    code: "https://github.com/devhasibulislam/finanseer-clone",
     live: "https://finanseer-clone.vercel.app/",
     thumbnail: "finanseer-clone.png",
     featured: true,
@@ -25,7 +25,7 @@ export const projects: ProjectTypes[] = [
     description:
       "Complete admin dashboard for an ecommerce website where you can manage products, orders, customers, and more.",
     tech: ["MERN", "Front-end", "Back-end"],
-    code: "https://github.com/developer-hasibulislam/ecomvision-clone",
+    code: "https://github.com/devhasibulislam/ecomvision-clone",
     live: "https://ecomvision-clone-client.onrender.com/",
     thumbnail: "ecomvision-clone.png",
     featured: true,
@@ -36,7 +36,7 @@ export const projects: ProjectTypes[] = [
     description:
       "A clone of Airbnb website where you can book hotels, rooms, and other places to stay.",
     tech: ["MERN", "Front-end", "Back-end"],
-    code: "https://github.com/developer-hasibulislam/airbnb-clone",
+    code: "https://github.com/devhasibulislam/airbnb-clone",
     live: "https://airbnb-clone-blue-kappa.vercel.app/",
     thumbnail: "airbnb-clone.png",
     featured: true,

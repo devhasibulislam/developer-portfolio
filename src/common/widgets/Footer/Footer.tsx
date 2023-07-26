@@ -5,7 +5,7 @@ const Footer = () => {
     <section id="__footer" className='py-5' >
        <div className='text-center text-sm text-slate-400' >
 
-          <p> Built & Designed by <span className='text-sky-400' >@developer-hasibulislam</span> </p>
+          <p> Built & Designed by <span className='text-sky-400' >@devhasibulislam</span> </p>
 
        </div>
     </section>
