@@ -27,13 +27,6 @@ const Meta = () => {
         content="MERN Stack Developer, Full Stack Development, Lead Generation Strategies, React.js Development, Node.js Development, MongoDB Integration, SEO Optimization, Content Marketing, Social Media Lead Generation, Email Marketing Campaigns"
       />
 
-      {/* Google and Bing Site Verification */}
-      <meta
-        name="google-site-verification"
-        content="a9YED3RPV4EEe_SQwgGVhD6nvl_kjWsZUvJIYPt_q10"
-      />
-      <meta name="msvalidate.01" content="3538F5E1CA6F95ACFC8F6F72AC79A1BD" />
-
       {/* Open Graph Tags (for Facebook) */}
       <meta property="og:url" content="https://devhasibulislam.vercel.app/" />
       <meta property="og:type" content="website" />
