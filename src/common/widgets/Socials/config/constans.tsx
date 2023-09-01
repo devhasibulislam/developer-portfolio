@@ -6,6 +6,7 @@ import {
   BsWhatsapp,
   BsGithub,
   BsLinkedin,
+  BsTelegram
 } from "react-icons/bs";
 import { SocialTypes } from "./types";
 
@@ -18,4 +19,5 @@ export const socialData: SocialTypes[] = [
   { icon: BsTwitter, url: "https://twitter.com/devhasibulislam" },
   { icon: BsPinterest, url: "https://pinterest.com/devhasibulislam" },
   { icon: BsWhatsapp, url: "https://wa.me/01906315901" },
+  { icon: BsTelegram, url: "https://t.me/devhasibulislam" },
 ];
