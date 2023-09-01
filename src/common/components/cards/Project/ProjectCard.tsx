@@ -42,7 +42,7 @@ const ProjectCard = ({
         },
       }}
       {...motionStep}
-      className="col-span-12 sm:col-span-6 md:col-span-4 bg-slate-800 rounded-xl p-4 group"
+      className="col-span-12 md:col-span-6 lg:col-span-4 bg-slate-800 rounded-xl p-4 group flex flex-col justify-between" // Add flex and justify-between
     >
       <div>
         <Link href={`${live}`}>
@@ -91,17 +91,18 @@ const ProjectCard = ({
 
         <h1 className="text-xl font-medium mb-1 text-slate-200"> {title} </h1>
         <p className="text-slate-400"> {description} </p>
+      </div>
 
-        <div className="flex text-slate-300 mt-7 gap-2 flex-wrap">
-          {tech.map((e: string, i: number) => (
-            <span
-              key={i}
-              className="bg-slate-800 text-gray-400 text-xs font-medium px-2.5 py-0.5 rounded border border-gray-500 shadow"
-            >
-              {e}
-            </span>
-          ))}
-        </div>
+      {/* Tech tags pushed to the bottom */}
+      <div className="flex text-slate-300 mt-7 gap-2 flex-wrap">
+        {tech.map((e: string, i: number) => (
+          <span
+            key={i}
+            className="bg-slate-800 text-gray-400 text-xs font-medium px-2.5 py-0.5 rounded border border-gray-500 shadow"
+          >
+            {e}
+          </span>
+        ))}
       </div>
     </motion.div>
   );
