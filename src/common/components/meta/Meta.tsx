@@ -32,7 +32,7 @@ const Meta = () => {
         name="google-site-verification"
         content="sZPmFgCCG9yDDjVqCsdembcfkOLDihLkjCWdXkxnEVI"
       />
-      <meta name="msvalidate.01" content="3538F5E1CA6F95ACFC8F6F72AC79A1BD" />
+      <meta name="msvalidate.01" content="100EE9C6C0FC17AF45101A46F9363D0C" />
 
       {/* Open Graph Tags (for Facebook) */}
       <meta property="og:url" content="https://devhasibulislam.vercel.app/" />
