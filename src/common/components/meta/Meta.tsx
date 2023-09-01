@@ -27,6 +27,8 @@ const Meta = () => {
         content="MERN Stack Developer, Full Stack Development, Lead Generation Strategies, React.js Development, Node.js Development, MongoDB Integration, SEO Optimization, Content Marketing, Social Media Lead Generation, Email Marketing Campaigns"
       />
 
+      <meta name="msvalidate.01" content="100EE9C6C0FC17AF45101A46F9363D0C" />
+
       {/* Open Graph Tags (for Facebook) */}
       <meta property="og:url" content="https://devhasibulislam.vercel.app/" />
       <meta property="og:type" content="website" />
