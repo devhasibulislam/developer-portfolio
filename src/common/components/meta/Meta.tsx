@@ -30,7 +30,7 @@ const Meta = () => {
       {/* Google and Bing Site Verification */}
       <meta
         name="google-site-verification"
-        content="a9YED3RPV4EEe_SQwgGVhD6nvl_kjWsZUvJIYPt_q10"
+        content="sZPmFgCCG9yDDjVqCsdembcfkOLDihLkjCWdXkxnEVI"
       />
       <meta name="msvalidate.01" content="3538F5E1CA6F95ACFC8F6F72AC79A1BD" />
 
@@ -47,7 +47,7 @@ const Meta = () => {
       />
       <meta
         property="og:image"
-        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1690344562/samples/devhasibulislam_Hasibul_Islam.png"
+        content="https://res.cloudinary.com/dkmf4t55r/image/upload/v1693567142/Og-Images/devhasibulislam.png"
       />
 
       {/* Twitter Card Tags */}
@@ -63,7 +63,7 @@ const Meta = () => {
       />
       <meta
         name="twitter:image"
-        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1690344562/samples/devhasibulislam_Hasibul_Islam.png"
+        content="https://res.cloudinary.com/dkmf4t55r/image/upload/v1693567142/Og-Images/devhasibulislam.png"
       />
 
       {/* Pinterest Tags */}
@@ -78,7 +78,7 @@ const Meta = () => {
       />
       <meta
         name="pinterest:image"
-        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1690344562/samples/devhasibulislam_Hasibul_Islam.png"
+        content="https://res.cloudinary.com/dkmf4t55r/image/upload/v1693567142/Og-Images/devhasibulislam.png"
       />
 
       {/* Article Publisher Metadata */}
