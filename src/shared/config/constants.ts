@@ -32,7 +32,7 @@ export const projects: ProjectTypes[] = [
   {
     title: "ML Prediction Dashboard",
     description:
-      "A comprehensive admin dashboard for a machine learning prediction website, facilitating user and prediction management, among other functions.",
+      "A comprehensive admin dashboard for a machine learning (initial stage usage) prediction website, facilitating user and prediction management, among other functions.",
     tech: [
       "Vite",
       "Redux",
