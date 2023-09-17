@@ -27,6 +27,7 @@ const Meta = () => {
         content="MERN Stack Developer, Full Stack Development, Lead Generation Strategies, React.js Development, Node.js Development, MongoDB Integration, SEO Optimization, Content Marketing, Social Media Lead Generation, Email Marketing Campaigns"
       />
 
+      <meta name="p:domain_verify" content="c55db76c3a2ff1b5533315270d4676b3" />
       <meta name="msvalidate.01" content="100EE9C6C0FC17AF45101A46F9363D0C" />
       <meta
         name="google-site-verification"
