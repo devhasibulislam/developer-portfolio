@@ -17,6 +17,11 @@ const Meta = () => {
       <meta name="geo.position" content="23.8103;90.4125" />
       <meta name="ICBM" content="23.8103, 90.4125" />
 
+      <title>
+        Hasibul Islam, an experienced MERN Stack Developer and Lead Generation
+        Expert!
+      </title>
+
       <meta
         title="Hasibul Islam, an experienced MERN Stack Developer and Lead Generation
           Expert!"
