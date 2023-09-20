@@ -9,15 +9,18 @@ import AnimatedTextCharacter from "@components/motion/AnimatedTextCherecter";
 const Left = () => {
   return (
     <div className="relative col-span-2 z-10 md:text-center lg:text-left !mt-[-20px]">
-      <img
-        alt="blur cyan"
-        src="/images/glassify/blur-cyan-0.png"
-        width="530"
-        height="530"
-        decoding="async"
-        data-nimg="1"
-        className="absolute bottom-full right-full -mr-72 -mb-56 opacity-50"
-      />
+      <picture>
+        <source srcSet="/images/glassify/blur-cyan-0.webp" type="image/webp" />
+        <img
+          alt="devhasibulislam"
+          src="/images/glassify/blur-cyan-0.png"
+          width="530"
+          height="530"
+          decoding="async"
+          data-nimg="1"
+          className="absolute bottom-full right-full -mr-72 -mb-56 opacity-50"
+        />
+      </picture>
 
       <div className="relative">
         <AnimatedTextWord text="Hi, my name is" className="text-lg" />
