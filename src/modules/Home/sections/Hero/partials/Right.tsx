@@ -189,8 +189,8 @@ const Right = () => {
       <div className="relative">
         <picture>
           <source
-            srcSet="/images/glassify/blur-cyan-0.webp"
-            type="image/webp"
+            srcSet="/images/glassify/blur-cyan-0.png"
+            type="image/png"
           />
           <img
             alt="devhasibulislam"
@@ -204,8 +204,8 @@ const Right = () => {
         </picture>
         <picture>
           <source
-            srcSet="/images/glassify/blur-indigo-1.webp"
-            type="image/webp"
+            srcSet="/images/glassify/blur-indigo-1.png"
+            type="image/png"
           />
           <img
             alt="devhasibulislam"

@@ -4,7 +4,7 @@ const Glassify = () => {
   return (
     <>
       <picture>
-        <source srcSet="/images/glassify/blur-cyan-0.webp" type="image/webp" />
+        <source srcSet="/images/glassify/blur-cyan-0.png" type="image/png" />
         <img
           alt="devhasibulislam"
           src="/images/glassify/blur-cyan-0.png"
