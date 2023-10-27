@@ -40,7 +40,7 @@ const Header = () => {
   };
 
   return (
-    <header className="top-0 w-full z-50 relative py-[30px] max-w-[94%] mx-auto md:block hidden right-0 left-0">
+    <header className="top-0 w-full z-50 relative py-[30px] max-w-7xl mx-auto md:block hidden right-0 left-0">
       <div className="flex items-center justify-between">
         <Link href="/" className="flex">
           <AnimatedTextCharacter
