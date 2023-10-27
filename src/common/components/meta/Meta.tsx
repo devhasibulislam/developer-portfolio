@@ -27,8 +27,13 @@ const Meta = () => {
 
       {/* General Metadata */}
       <meta name="author" content="Hasibul Islam" />
-      <title>Hasibul Islam (@devhasibulislam) - Portfolio</title>
-      <meta title="Hasibul Islam (@devhasibulislam) - Portfolio" name="title" />
+      <title>
+        Hasibul Islam (@devhasibulislam), a full stack web developer
+      </title>
+      <meta
+        title="Hasibul Islam (@devhasibulislam), a full stack web developer"
+        name="title"
+      />
 
       {/* Description and Keywords Metadata */}
       <meta
