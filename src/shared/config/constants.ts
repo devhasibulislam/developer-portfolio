@@ -10,6 +10,25 @@ export const navData = ["About", "Social", "Works", "Contact"];
 // project data
 export const projects: ProjectTypes[] = [
   {
+    title: "Canim eCommerce",
+    description:
+      "Shop seamlessly with top brands, secure transactions, swift deliveries, user-friendly navigation, and exclusive deals. Redefine convenience in our digital marketplace.",
+    tech: [
+      "Next.JS",
+      "Redux",
+      "Tailwind-CSS",
+      "Vercel",
+      "MongoDB",
+      "Cloudinary",
+      "JWT",
+    ],
+    code: "https://github.com/devhasibulislam/ciseco-ecommerce",
+    live: "https://ciseco-csr.vercel.app",
+    thumbnail: "ciseco-ecommerce.png",
+    featured: true,
+  },
+
+  {
     title: "PlanNao Template",
     description:
       "All you need is mentor' is a pioneering ed-tech platform in Bangladesh connecting students with mentors for personalized guidance and bridging the gap between education and success.",
@@ -26,7 +45,7 @@ export const projects: ProjectTypes[] = [
     code: "https://github.com/devhasibulislam/plannao-template",
     live: "https://plannao-template.vercel.app",
     thumbnail: "plannao-template.png",
-    featured: true,
+    featured: false,
   },
 
   {
@@ -68,26 +87,6 @@ export const projects: ProjectTypes[] = [
     code: "https://github.com/devhasibulislam/ecomvision-clone",
     live: "https://ecomvision-clone-client.onrender.com",
     thumbnail: "ecomvision-clone.png",
-    featured: false,
-  },
-
-  {
-    title: "Airbnb Clone",
-    description:
-      "A replicated Airbnb website offering bookings for various accommodations, including hotels, rooms, and other lodging options, mirroring the original platform's functionality and features.",
-    tech: [
-      "Next.JS",
-      "Next-Auth",
-      "Zustand",
-      "Cloudinary",
-      "Axios",
-      "Vercel",
-      "MongoDB",
-      "React-Icons",
-    ],
-    code: "https://github.com/devhasibulislam/airbnb-clone",
-    live: "https://airbnb-clone-blue-kappa.vercel.app",
-    thumbnail: "airbnb-clone.png",
     featured: false,
   },
 
