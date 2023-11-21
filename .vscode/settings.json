@@ -2,13 +2,20 @@
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "cSpell.words": [
+    "Canim",
+    "Ciseco",
+    "Cloudinary",
     "devhasibulislam",
     "ecommerce",
+    "ecomvision",
     "Glassify",
     "Hasibul",
     "hasibulislam",
     "mern",
+    "Nivo",
     "pingback",
-    "tailwindcss"
+    "plannao",
+    "tailwindcss",
+    "travello"
   ]
 }
