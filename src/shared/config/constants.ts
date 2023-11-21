@@ -25,7 +25,7 @@ export const projects: ProjectTypes[] = [
     code: "https://github.com/devhasibulislam/ciseco-ecommerce",
     live: "https://ciseco-csr.vercel.app",
     thumbnail: "ciseco-ecommerce.png",
-    featured: true,
+    featured: false,
   },
 
   {
@@ -127,24 +127,5 @@ export const projects: ProjectTypes[] = [
     live: "https://ecomvision-clone-client.onrender.com",
     thumbnail: "ecomvision-clone.png",
     featured: false,
-  },
-
-  {
-    title: "Canim Blogging",
-    description:
-      "A blog platform offering reading, writing, commenting, liking, and sharing functionalities for users to engage with and create content.",
-    tech: [
-      "React.JS",
-      "Swiper",
-      "Express.JS",
-      "Cloudinary",
-      "Helmet",
-      "Redux",
-      "MongoDB",
-      "Mongoose",
-    ],
-    code: "https://github.com/devhasibulislam/Nurui",
-    live: "https://nurui-csr.vercel.app",
-    thumbnail: "canim-blog.png",
   },
 ];
