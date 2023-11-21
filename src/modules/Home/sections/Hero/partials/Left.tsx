@@ -8,7 +8,7 @@ import AnimatedTextCharacter from "@components/motion/AnimatedTextCherecter";
 
 const Left = () => {
   return (
-    <div className="relative col-span-2 z-10 md:text-center lg:text-left !mt-[-20px]">
+    <div className="relative col-span-2 z-10 md:text-center lg:text-left !mt-[-20px] max-w-6xl">
       <picture>
         <source srcSet="/images/glassify/blur-cyan-0.png" type="image/png" />
         <img

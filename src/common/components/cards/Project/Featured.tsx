@@ -25,7 +25,7 @@ const Featured = ({
             <Image
               src={`/images/projects/${thumnail}`}
               blurDataURL={`/images/projects/${thumnail}`}
-              className="transition-all duration-300 group-hover:scale-110 group-hover:rotate-3"
+              className="transition-all duration-300 group-hover:scale-125"
               layout="fill"
               objectFit="cover"
               quality={100}

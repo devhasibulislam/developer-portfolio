@@ -50,7 +50,7 @@ const ProjectCard = ({
             <Image
               src={`/images/projects/${thumbnail}`}
               blurDataURL={`/images/projects/${thumbnail}`}
-              className="transition-all duration-300 group-hover:scale-110 group-hover:rotate-3"
+              className="transition-all duration-300 group-hover:scale-125"
               layout="fill"
               objectFit="cover"
               quality={100}
