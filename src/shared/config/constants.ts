@@ -70,7 +70,7 @@ export const projects: ProjectTypes[] = [
   {
     title: "nLog Blogging",
     description:
-      "A democratic blog platform where users can freely express anti-political views and opinions, fostering open discourse and discussion.",
+      "Natural Way Of Blogging. By writing politically incorrect things uwu. Welcome to our cozy corner of the internet! A delightful mix of lighthearted musings, adventures, and insightful reflections.",
     tech: [
       "React.JS",
       "Hapi/Joi",
