@@ -10,7 +10,7 @@ export const navData = ["About", "Social", "Works", "Contact"];
 // project data
 export const projects: ProjectTypes[] = [
   {
-    title: "Canim eCommerce",
+    title: "Ciseco eCommerce",
     description:
       "Shop seamlessly with top brands, secure transactions, swift deliveries, user-friendly navigation, and exclusive deals. Redefine convenience in our digital marketplace.",
     tech: [
@@ -29,7 +29,26 @@ export const projects: ProjectTypes[] = [
   },
 
   {
-    title: "PlanNao Template",
+    title: "Travello Booking",
+    description:
+      "Perfect for all kinds of travel agency. Including tours, hotel booking, activity/event, travel experiences, online booking, room bnb, villa rental, holiday rental, flight ticket, and more.",
+    tech: [
+      "Next.JS",
+      "Redux",
+      "Tailwind-CSS",
+      "Vercel",
+      "MongoDB",
+      "Cloudinary",
+      "JWT",
+    ],
+    code: "https://github.com/devhasibulislam/travello-template",
+    live: "https://travello-template.vercel.app/",
+    thumbnail: "travello-template.png",
+    featured: false,
+  },
+
+  {
+    title: "PlanNao Advisory",
     description:
       "All you need is mentor' is a pioneering ed-tech platform in Bangladesh connecting students with mentors for personalized guidance and bridging the gap between education and success.",
     tech: [
@@ -45,6 +64,26 @@ export const projects: ProjectTypes[] = [
     code: "https://github.com/devhasibulislam/plannao-template",
     live: "https://plannao-template.vercel.app",
     thumbnail: "plannao-template.png",
+    featured: false,
+  },
+
+  {
+    title: "nLog Blogging",
+    description:
+      "A democratic blog platform where users can freely express anti-political views and opinions, fostering open discourse and discussion.",
+    tech: [
+      "React.JS",
+      "Hapi/Joi",
+      "Morgan",
+      "Express.JS",
+      "MongoDB",
+      "Axios",
+      "DayJS",
+      "Mongoose",
+    ],
+    code: "https://github.com/devhasibulislam/nLog-blogs",
+    live: "https://nlog-blogs-csr.vercel.app",
+    thumbnail: "nLog.png",
     featured: false,
   },
 
@@ -70,7 +109,7 @@ export const projects: ProjectTypes[] = [
   },
 
   {
-    title: "ECommerce Admin Dashboard",
+    title: "eCommerce Dashboard",
     description:
       "Full-featured e-commerce admin dashboard: Efficiently oversee products, orders, customers, and additional functionalities for seamless website management.",
     tech: [
@@ -91,46 +130,7 @@ export const projects: ProjectTypes[] = [
   },
 
   {
-    title: "X-Beat Template",
-    description:
-      "E-commerce platform specializing in musical instruments and accessories, offering a wide range of products for purchase on their website.",
-    tech: [
-      "React.JS",
-      "React-Router-Dom",
-      "React-Icons",
-      "Swiper",
-      "EsLint",
-      "Sass",
-      "Search-Filter",
-    ],
-    code: "https://github.com/devhasibulislam/xBeat-stable",
-    live: "https://xbeat-stable.netlify.app",
-    thumbnail: "x-beat.png",
-    featured: false,
-  },
-
-  {
-    title: "nLog Blog Template",
-    description:
-      "A democratic blog platform where users can freely express anti-political views and opinions, fostering open discourse and discussion.",
-    tech: [
-      "React.JS",
-      "Hapi/Joi",
-      "Morgan",
-      "Express.JS",
-      "MongoDB",
-      "Axios",
-      "DayJS",
-      "Mongoose",
-    ],
-    code: "https://github.com/devhasibulislam/9T5--nLog-blogs",
-    live: "https://9t5-nlog-blogs-client.vercel.app",
-    thumbnail: "nLog.png",
-    featured: false,
-  },
-
-  {
-    title: "Canim Blog Template",
+    title: "Canim Blogging",
     description:
       "A blog platform offering reading, writing, commenting, liking, and sharing functionalities for users to engage with and create content.",
     tech: [
