@@ -6,7 +6,7 @@
 
 With its modern design and intuitive layout, the Landing Page welcomes users to an exciting world of personalized projects, live link & source code.
 
-![devhasibulislam - v2](/devhasibulislam-%20v2.png)
+![devhasibulislam - v2](/devhasibulislam%20-%20v2.png)
 
 ## Features
 
