@@ -1,14 +1,15 @@
-"use client";
+"use client"
 
-import Link from "next/link";
-import React from "react";
-import { motion } from "framer-motion";
+import Link from 'next/link'
+import React from 'react'
+import { motion } from 'framer-motion'
 //
-import { navData } from "@config/constants";
-import AnimatedTextCharacter from "@components/motion/AnimatedTextCherecter";
-import Button from "@components/Button";
+import { navData } from '@config/constants'
+import AnimatedTextCharacter from '@components/motion/AnimatedTextCherecter'
+import Button from '@components/Button'
 
 const Header = () => {
+
   // motion
   const container = {
     hidden: { opacity: 0 },
@@ -40,49 +41,32 @@ const Header = () => {
   };
 
   return (
-    <header className="top-0 w-full z-50 relative py-[30px] max-w-7xl px-4 mx-auto md:block hidden right-0 left-0">
-      <div className="flex items-center justify-between">
-        <Link href="/" className="flex">
-          <AnimatedTextCharacter
-            text="H"
-            className="text-4xl font-semibold text-sky-700"
-          />
-          <AnimatedTextCharacter
-            text="asib."
-            className="text-4xl text-slate-700/80"
-          />
-        </Link>
+    <header className='top-0 w-full z-50 relative py-[30px] mx-auto right-0 left-0 container' >
+       <div className='flex items-center justify-center md:justify-between' >
 
-        <motion.ul
-          variants={container}
-          initial="hidden"
-          animate="visible"
-          className="__navright"
-        >
-          {navData.map((e: string, i: number) => (
-            <motion.a
-              key={i}
-              variants={child}
-              href={`#${e.toLocaleLowerCase()}`}
-            >
-              <li>
-                {" "}
-                <span>0{i + 1}.</span> {e}{" "}
-              </li>
-            </motion.a>
-          ))}
-
-          <Link
-            href="https://drive.google.com/file/d/1Gdbax82oaBWz2_0-OYh44E7QvfB53wNS/view?usp=share_link"
-            target="__blank"
-          >
-            {" "}
-            <Button> Resume </Button>{" "}
+          <Link href='/' className='flex' >
+             <AnimatedTextCharacter 
+                text='H'
+                className='text-4xl font-semibold text-sky-700' 
+             />
+             <AnimatedTextCharacter 
+                text='asib.'
+                className='text-4xl text-slate-700/80' 
+             />
           </Link>
-        </motion.ul>
-      </div>
-    </header>
-  );
-};
 
-export default Header;
+          <motion.ul variants={container} initial="hidden" animate="visible" className='__navright' > 
+            
+            {navData.map((e: string, i: number) => 
+              <motion.a key={i}  variants={child} className='hidden md:block' href={`#${e.toLocaleLowerCase()}`} ><li> <span>0{i+1}.</span> {e} </li></motion.a>
+            )}
+
+            {/* <Link href='/' target='__blank' > <Button > Resume </Button> </Link> */}
+          </motion.ul>
+
+       </div>
+    </header>
+  )
+}
+
+export default Header
