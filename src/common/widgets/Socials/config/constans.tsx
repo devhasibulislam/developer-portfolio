@@ -1,23 +1,12 @@
-import {
-  BsPinterest,
-  BsFacebook,
-  BsTwitter,
-  BsInstagram,
-  BsWhatsapp,
-  BsGithub,
-  BsLinkedin,
-  BsTelegram
-} from "react-icons/bs";
-import { SocialTypes } from "./types";
+import { FiGithub, FiLinkedin, FiTwitter, FiInstagram, FiFacebook } from 'react-icons/fi'
+import { SocialTypes } from './types'
+
 
 // social media data
-export const socialData: SocialTypes[] = [
-  { icon: BsLinkedin, url: "https://www.linkedin.com/in/devhasibulislam" },
-  { icon: BsGithub, url: "https://github.com/devhasibulislam" },
-  { icon: BsFacebook, url: "https://facebook.com/devhasibulislam" },
-  { icon: BsInstagram, url: "https://instagram.com/devhasibulislam" },
-  { icon: BsTwitter, url: "https://twitter.com/devhasibulislam" },
-  { icon: BsPinterest, url: "https://pinterest.com/devhasibulislam" },
-  { icon: BsWhatsapp, url: "https://wa.me/01906315901" },
-  { icon: BsTelegram, url: "https://t.me/devhasibulislam" },
-];
+export const socialData : SocialTypes[] = [
+    { icon : FiLinkedin, url : "https://www.linkedin.com/in/devhasibulislam" },
+    { icon : FiGithub, url : "https://github.com/devhasibulislam" },
+    { icon : FiFacebook, url : "https://www.facebook.com/devhasibulislam" },
+    { icon : FiInstagram, url : "https://instagram.com/devhasibulislam" },
+    { icon : FiTwitter, url : "https://twitter.com/devhasibulislam" },
+]
