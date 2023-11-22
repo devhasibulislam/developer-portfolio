@@ -10,11 +10,11 @@ import { ProjectTypes } from "@config/types";
 
 const Projects = () => {
   return (
-    <section id="works">
+    <section id="works" className="container">
       <motion.h1
         variants={fadeLeft}
         {...motionStep}
-        className="flex items-center gap-2 text-3xl font-medium text-slate-300 mb-12"
+        className="flex items-center gap-2 text-lg md:text-3xl font-medium text-slate-300 mb-12"
       >
         <span className="text-sky-400 font-mono">03. </span>
         Some Things I’ve Built
@@ -30,7 +30,7 @@ const Projects = () => {
           ))}
       </div>
 
-      <div className="grid grid-cols-12 gap-6 gap-y-8 my-20">
+      <div className="grid grid-cols-8 2xl:grid-cols-12 gap-6 gap-y-8 my-20">
         {projects
           .filter((e: ProjectTypes) => e.featured !== true)
           .map((e: ProjectTypes, i: number) => (
