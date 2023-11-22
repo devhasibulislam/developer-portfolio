@@ -11,7 +11,7 @@ import { ProjectTypes } from "@config/types";
 const Featured = ({
   secondary,
   live,
-  thumbnail: thumnail,
+  thumbnail,
   code,
   title,
   description,
@@ -23,8 +23,8 @@ const Featured = ({
         <Link href={`${live}`}>
           <div className="h-[350px] w-full relative rounded-xl overflow-hidden">
             <Image
-              src={`/images/projects/${thumnail}`}
-              blurDataURL={`/images/projects/${thumnail}`}
+              src={`/images/projects/${thumbnail}`}
+              blurDataURL={`/images/projects/${thumbnail}`}
               className="transition-all duration-300 group-hover:scale-125"
               layout="fill"
               objectFit="cover"
