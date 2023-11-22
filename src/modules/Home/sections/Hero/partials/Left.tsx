@@ -23,27 +23,41 @@ const Left = () => {
       </picture>
 
       <div className="relative">
-        <AnimatedTextWord text="Hi, my name is" className="text-lg" />
+        <AnimatedTextWord
+          text="Hi, my name is"
+          className="text-lg justify-center lg:justify-start"
+        />
 
         <div>
           <AnimatedTextCharacter
-            className="!font-medium !bg-clip-text !text-5xl !leading-normal md:!text-7xl md:!leading-[87px] !text-slate-300"
+            className="!font-medium !bg-clip-text !text-[2rem] !leading-normal md:!text-7xl md:!leading-[87px] !text-slate-300 justify-center lg:justify-start"
             text="Hasibul Islam."
           />
           <AnimatedTextCharacter
-            className="font-medium text-3xl sm:text-4xl tracking-normal md:text-5xl text-slate-400 mt-1"
-            text="I build things for the web."
+            className="font-medium text-sm sm:text-[1.6rem] tracking-normal md:text-[2rem] text-slate-400 mt-1 justify-center lg:justify-start"
+            text="Who Transform Ideas into Web Wonders"
           />
         </div>
 
         <div className="my-5 md:my-8 leading-7 text-slate-400 md:text-lg max-w-3xl">
-          <AnimatedTextWord text="Highly motivated and very passionate Full Stack Developer with three years of experience in JavaScript, React js, Next js, Firebase, Tailwind CSS, Material UI, Node js, Express js, MongoDB and more." />
+          <AnimatedTextWord
+            text="Highly motivated and very passionate Full Stack Developer with three years of experience in Typescript, React js, Next js, Firebase, Tailwind CSS, Material UI, Node js, Express js, MongoDB"
+            className="text-sm sm:text-lg justify-center lg:justify-start"
+          />
         </div>
       </div>
 
-      <motion.div variants={fadeUpSpring} initial="hidden" animate="visible">
-        <a href="#works">
-          <Button outlined> Check out my projects </Button>
+      <motion.div
+        variants={fadeUpSpring}
+        initial="hidden"
+        animate="visible"
+        className="w-fit mx-auto lg:ml-0"
+      >
+        <a
+          href="https://drive.google.com/file/d/1Gdbax82oaBWz2_0-OYh44E7QvfB53wNS/view?usp=share_link"
+          target="_blank"
+        >
+          <Button outlined> Check out my resume </Button>
         </a>
       </motion.div>
     </div>
