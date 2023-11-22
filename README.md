@@ -23,8 +23,8 @@ With its modern design and intuitive layout, the Landing Page welcomes users to 
 - Framework: `Next.JS`
 - Styling: `Tailwind CSS`
 - Icons: `React Icons`
-- Linting: ESLint
-- Formatter: Prettier
+- Linting: `ESLint`
+- Formatter: `Prettier`
 
 ## Technologies
 
