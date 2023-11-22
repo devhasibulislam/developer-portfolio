@@ -11,7 +11,7 @@ import { ProjectTypes } from "@config/types";
 const Featured = ({
   secondary,
   live,
-  thumbnail: thumnail,
+  thumbnail,
   code,
   title,
   description,
