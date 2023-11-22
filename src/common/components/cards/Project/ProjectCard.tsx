@@ -42,7 +42,7 @@ const ProjectCard = ({
         },
       }}
       {...motionStep}
-      className="col-span-12 md:col-span-6 lg:col-span-4 bg-slate-800 rounded-xl p-4 group flex flex-col justify-between" // Add flex and justify-between
+      className="col-span-12 sm:col-span-6 md:col-span-4 bg-slate-800 rounded-xl p-4 group "
     >
       <div>
         <Link href={`${live}`}>
@@ -81,7 +81,7 @@ const ProjectCard = ({
               <Link
                 href={`${code}`}
                 target="_blank"
-                className="hover:text-sky-400 transition-all duration-300 hover:scale-90 text-[1.2rem]"
+                className="hover:text-sky-400 transition-all duration-300 hover:scale-110 text-[1.2rem]"
               >
                 <FiGithub />
               </Link>
@@ -90,19 +90,18 @@ const ProjectCard = ({
         </div>
 
         <h1 className="text-xl font-medium mb-1 text-slate-200"> {title} </h1>
-        <p className="text-slate-400"> {description} </p>
-      </div>
+        <p className="text-slate-400 text-sm line-clamp-4"> {description} </p>
 
-      {/* Tech tags pushed to the bottom */}
-      <div className="flex text-slate-300 mt-7 gap-2 flex-wrap">
-        {tech.map((e: string, i: number) => (
-          <span
-            key={i}
-            className="bg-slate-800 text-gray-400 text-xs font-medium px-2.5 py-0.5 rounded border border-gray-500 shadow"
-          >
-            {e}
-          </span>
-        ))}
+        <div className="flex text-slate-300 mt-7 gap-x-2 overflow-x-auto">
+          {tech.map((e: string, i: number) => (
+            <span
+              key={i}
+              className="bg-slate-800 text-gray-400 text-xs font-medium px-2.5 py-0.5 rounded border border-gray-500 shadow whitespace-nowrap lowercase"
+            >
+              {e}
+            </span>
+          ))}
+        </div>
       </div>
     </motion.div>
   );
