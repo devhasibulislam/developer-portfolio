@@ -88,27 +88,6 @@ export const projects: ProjectTypes[] = [
   },
 
   {
-    title: "ML Prediction Dashboard",
-    description:
-      "A comprehensive admin dashboard for a machine learning (initial stage usage) prediction website, facilitating user and prediction management, among other functions.",
-    tech: [
-      "Vite",
-      "Redux",
-      "Vercel",
-      "MUI",
-      "MongoDB",
-      "Express.JS",
-      "Mongoose",
-      "Render",
-      "Morgan",
-    ],
-    code: "https://github.com/devhasibulislam/finanseer-clone",
-    live: "https://finanseer-clone.vercel.app",
-    thumbnail: "finanseer-clone.png",
-    featured: false,
-  },
-
-  {
     title: "eCommerce Dashboard",
     description:
       "Full-featured e-commerce admin dashboard: Efficiently oversee products, orders, customers, and additional functionalities for seamless website management.",
@@ -126,6 +105,17 @@ export const projects: ProjectTypes[] = [
     code: "https://github.com/devhasibulislam/ecomvision-clone",
     live: "https://ecomvision-clone-client.onrender.com",
     thumbnail: "ecomvision-clone.png",
+    featured: false,
+  },
+
+  {
+    title: "URL Shortener",
+    description:
+      "URL shortening is a technique on the World Wide Web in which a Uniform Resource Locator (URL) may be made substantially shorter and still direct to the required page.",
+    tech: ["Next.JS", "Axios", "Cheerio", "Vercel", "MongoDB", "Tailwind CSS"],
+    code: "https://github.com/devhasibulislam/lisonet-template",
+    live: "https://lisonet-template.vercel.app/",
+    thumbnail: "url-shortener.png",
     featured: false,
   },
 ];
