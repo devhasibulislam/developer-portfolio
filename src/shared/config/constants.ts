@@ -102,9 +102,9 @@ export const projects: ProjectTypes[] = [
       "Render",
       "Emotion",
     ],
-    code: "https://github.com/devhasibulislam/ecomvision-clone",
-    live: "https://ecomvision-clone-client.onrender.com",
-    thumbnail: "ecomvision-clone.png",
+    code: "https://github.com/devhasibulislam/ecomvision-template",
+    live: "https://ecomvision-csr.vercel.app/",
+    thumbnail: "ecomvision-template.png",
     featured: false,
   },
 
