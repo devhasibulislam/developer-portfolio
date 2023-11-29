@@ -57,7 +57,9 @@ const Left = () => {
           href="https://drive.google.com/file/d/1Gdbax82oaBWz2_0-OYh44E7QvfB53wNS/view?usp=share_link"
           target="_blank"
         >
-          <Button outlined> Check out my resume </Button>
+          <Button outlined>
+            Check Out My Resume
+          </Button>
         </a>
       </motion.div>
     </div>
