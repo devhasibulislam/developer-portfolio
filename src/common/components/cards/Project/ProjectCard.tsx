@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/legacy/image";
@@ -18,6 +18,22 @@ const ProjectCard = ({
   description,
   tech,
 }: ProjectTypes) => {
+  const swiperContainerRef = useRef(null);
+
+  const handleSwipe = (direction: any) => {
+    const container = swiperContainerRef.current;
+    const scrollAmount = 200; // Adjust this value based on your design
+
+    if (container) {
+      if (direction === "left") {
+        // Property 'scrollLeft' does not exist on type 'never'.ts(2339)
+        container.scrollLeft -= scrollAmount;
+      } else {
+        container.scrollLeft += scrollAmount;
+      }
+    }
+  };
+
   return (
     <motion.div
       variants={{
@@ -42,7 +58,7 @@ const ProjectCard = ({
         },
       }}
       {...motionStep}
-      className="col-span-12 sm:col-span-6 md:col-span-4 bg-slate-800 rounded-xl p-4 group "
+      className="col-span-12 sm:col-span-6 md:col-span-4 bg-slate-800 rounded-xl p-4 group"
     >
       <div>
         <Link href={`${live}`}>
@@ -92,15 +108,35 @@ const ProjectCard = ({
         <h1 className="text-xl font-medium mb-1 text-slate-200"> {title} </h1>
         <p className="text-slate-400 text-sm line-clamp-4"> {description} </p>
 
-        <div className="flex text-slate-300 mt-7 gap-x-2 overflow-x-auto">
-          {tech.map((e: string, i: number) => (
-            <span
-              key={i}
-              className="bg-slate-800 text-gray-400 text-xs font-medium px-2.5 py-0.5 rounded border border-gray-500 shadow whitespace-nowrap lowercase"
+        <div className="relative w-full">
+          <div
+            ref={swiperContainerRef}
+            className="flex text-slate-300 mt-7 gap-x-2 overflow-x-auto mx-8"
+            // use px-8 instead of mx-8 display another effect
+          >
+            {tech.map((e: string, i: number) => (
+              <span
+                key={i}
+                className="bg-slate-800 text-gray-400 text-xs font-medium px-2.5 py-0.5 rounded border border-gray-500 shadow whitespace-nowrap lowercase"
+              >
+                {e}
+              </span>
+            ))}
+            {/* <div className="absolute top-0 right-0 w-full flex flex-row justify-between"> */}
+            <button
+              onClick={() => handleSwipe("left")}
+              className="bg-slate-800 text-gray-400 text-xs font-medium border border-gray-500 shadow whitespace-nowrap cursor-pointer absolute top-0 left-0 h-6 w-6 flex justify-center items-center rounded-full"
             >
-              {e}
-            </span>
-          ))}
+              {"<"}
+            </button>
+            <button
+              onClick={() => handleSwipe("right")}
+              className="bg-slate-800 text-gray-400 text-xs font-medium px-2 py-0.5 border border-gray-500 shadow whitespace-nowrap cursor-pointer absolute top-0 right-0 h-6 w-6 flex justify-center items-center rounded-full"
+            >
+              {">"}
+            </button>
+            {/* </div> */}
+          </div>
         </div>
       </div>
     </motion.div>
