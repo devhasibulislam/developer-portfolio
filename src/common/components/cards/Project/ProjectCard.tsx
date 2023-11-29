@@ -18,10 +18,10 @@ const ProjectCard = ({
   description,
   tech,
 }: ProjectTypes) => {
-  const swiperContainerRef = useRef(null);
+  const swiperContainerRef = useRef<HTMLDivElement>(null);
 
-  const handleSwipe = (direction: any) => {
-    const container = swiperContainerRef.current;
+  const handleSwipe = (direction: "left" | "right") => {
+    const container = swiperContainerRef.current as HTMLDivElement;
     const scrollAmount = 200; // Adjust this value based on your design
 
     if (container) {
