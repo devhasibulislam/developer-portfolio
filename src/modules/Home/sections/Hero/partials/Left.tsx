@@ -41,7 +41,7 @@ const Left = () => {
 
         <div className="my-5 md:my-8 leading-7 text-slate-400 md:text-lg max-w-3xl">
           <AnimatedTextWord
-            text="Highly motivated and very passionate Full Stack Developer with three years of experience in Typescript, React js, Next js, Firebase, Tailwind CSS, Material UI, Node js, Express js, MongoDB"
+            text="#MernStack #WebDeveloper - Developing web application for individuals, startups, small and medium businesses"
             className="text-sm sm:text-lg justify-center lg:justify-start"
           />
         </div>
@@ -57,9 +57,7 @@ const Left = () => {
           href="https://drive.google.com/file/d/1Gdbax82oaBWz2_0-OYh44E7QvfB53wNS/view?usp=share_link"
           target="_blank"
         >
-          <Button outlined>
-            Check Out My Resume
-          </Button>
+          <Button outlined>Check Out My Resume</Button>
         </a>
       </motion.div>
     </div>
