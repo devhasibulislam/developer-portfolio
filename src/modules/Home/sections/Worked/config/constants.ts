@@ -14,7 +14,7 @@ export const worked_data: WorkedTypes[] = [
     ],
     deadline: "Creator • Jan 2024 - Present",
     title: "Content Creator",
-    company: "@CodeCraftMERN",
+    company: "CodeCraftMERN",
     url: "https://www.youtube.com/@CodeCraftMERN",
   },
   {
@@ -29,7 +29,7 @@ export const worked_data: WorkedTypes[] = [
     ],
     deadline: "Freelance • Aug 2021 - Present",
     title: "MERN Stack Developer",
-    company: "@devhasibulislam",
+    company: "devhasibulislam",
     url: "https://fiverr.com/devhasibulislam",
   },
   {
@@ -44,7 +44,7 @@ export const worked_data: WorkedTypes[] = [
     ],
     deadline: "Freelance • Aug 2022 - Present",
     title: "Full Stack Developer",
-    company: "@devhasibulislam",
+    company: "devhasibulislam",
     url: "https://www.upwork.com/freelancers/~01a3b8fc1dc09fedf5",
   },
 ];
