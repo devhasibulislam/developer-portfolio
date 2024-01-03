@@ -17,7 +17,7 @@ const Meta = () => {
       />
       <meta
         property="og:image"
-        content="https://github.com/devhasibulislam/developer-portfolio/blob/v3/public/images/og/devhasibulislam%20-%20portfolio.png?raw=true"
+        content="https://github.com/devhasibulislam/developer-portfolio/blob/master/public/images/og/devhasibulislam%20-%20portfolio.png?raw=true"
       />
 
       {/* General Metadata */}
@@ -67,7 +67,7 @@ const Meta = () => {
       />
       <meta
         name="twitter:image"
-        content="https://github.com/devhasibulislam/developer-portfolio/blob/v3/public/images/og/devhasibulislam%20-%20portfolio.png?raw=true"
+        content="https://github.com/devhasibulislam/developer-portfolio/blob/master/public/images/og/devhasibulislam%20-%20portfolio.png?raw=true"
       />
 
       {/* Pinterest Tags */}
@@ -82,7 +82,7 @@ const Meta = () => {
       />
       <meta
         name="pinterest:image"
-        content="https://github.com/devhasibulislam/developer-portfolio/blob/v3/public/images/og/devhasibulislam%20-%20portfolio.png?raw=true"
+        content="https://github.com/devhasibulislam/developer-portfolio/blob/master/public/images/og/devhasibulislam%20-%20portfolio.png?raw=true"
       />
 
       {/* Favicons */}
