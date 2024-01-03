@@ -12,16 +12,9 @@ const Footer = () => {
             target="_blank"
             className="text-sky-400"
           >
-            @Hasibul Islam
+            Hasibul Islam
           </a>{" "}
-          & inspired from{" "}
-          <a
-            href="https://github.com/bchiang7/v4"
-            target="_blank"
-            className="text-sky-400"
-          >
-            Brittany Chiang
-          </a>{" "}
+          & inspired from <span className="text-sky-400">Brittany Chiang</span>{" "}
           ❤️{" "}
         </p>
       </div>
