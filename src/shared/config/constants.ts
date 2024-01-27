@@ -54,7 +54,7 @@ export const projects: ProjectTypes[] = [
   },
 
   {
-    title: "Ciseco eCommerce",
+    title: "Canim eCommerce",
     description:
       "Shop seamlessly with top brands, secure transactions, swift deliveries, user-friendly navigation, and exclusive deals. Redefine convenience in our digital marketplace.",
     tech: [
