@@ -77,7 +77,7 @@ export const projects: ProjectTypes[] = [
       "@tailwindcss/forms",
     ],
     github: "https://github.com/devhasibulislam/canim-ecommerce",
-    youtube: "https://youtu.be/0A_tPdRdkDwhttps://youtu.be/0A_tPdRdkDw",
+    youtube: "https://youtu.be/0A_tPdRdkDw?si=TxAyapvf6u3C-JLm",
     live: "https://canim-csr.vercel.app",
     thumbnail: "canim-ecommerce.png",
     featured: false,
