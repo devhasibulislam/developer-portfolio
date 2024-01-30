@@ -3,9 +3,9 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/legacy/image";
 //
-import { RiFilePaperLine } from "react-icons/ri";
-import { HiOutlineExternalLink } from "react-icons/hi";
-import { FiGithub } from "react-icons/fi";
+import { RiExternalLinkLine, RiFilePaperLine } from "react-icons/ri";
+import { BsGithub  } from "react-icons/bs";
+import { IoLogoYoutube } from "react-icons/io5";
 //
 import { motionStep } from "@config/motion";
 import { ProjectTypes } from "@config/types";
@@ -13,7 +13,8 @@ import { ProjectTypes } from "@config/types";
 const ProjectCard = ({
   live,
   thumbnail,
-  code,
+  github,
+  youtube,
   title,
   description,
   tech,
@@ -82,24 +83,34 @@ const ProjectCard = ({
         <div className="flex items-center justify-between my-5">
           <RiFilePaperLine className="text-2xl text-sky-400" />
 
-          <div className={"flex justify-end items-center gap-3 text-slate-300"}>
+          <div className={"flex justify-end items-center gap-x-3 text-slate-300"}>
             {live && (
               <Link
                 href={`${live}`}
                 target="_blank"
-                className="hover:text-sky-400 transition-all duration-300 hover:scale-110 text-2xl"
+                className="hover:text-sky-400 transition-all duration-300 hover:scale-110"
               >
-                <HiOutlineExternalLink />
+                <RiExternalLinkLine className="h-6 w-6" />
               </Link>
             )}
 
-            {code && (
+            {github && (
               <Link
-                href={`${code}`}
+                href={`${github}`}
                 target="_blank"
-                className="hover:text-sky-400 transition-all duration-300 hover:scale-110 text-[1.2rem]"
+                className="hover:text-sky-400 transition-all duration-300 hover:scale-110"
               >
-                <FiGithub />
+                <BsGithub className="w-5 h-5" />
+              </Link>
+            )}
+
+            {youtube && (
+              <Link
+                href={`${youtube}`}
+                target="_blank"
+                className="hover:text-sky-400 transition-all duration-300 hover:scale-110"
+              >
+                <IoLogoYoutube className="w-5 h-5" />
               </Link>
             )}
           </div>

@@ -1,9 +1,10 @@
 import Image from "next/legacy/image";
 import Link from "next/link";
-import React from "react";
+import React, { useRef } from "react";
 //
-import { HiOutlineExternalLink } from "react-icons/hi";
-import { FiGithub } from "react-icons/fi";
+import { RiExternalLinkLine } from "react-icons/ri";
+import { BsGithub } from "react-icons/bs";
+import { IoLogoYoutube } from "react-icons/io5";
 //
 import { cx } from "@config/constants";
 import { ProjectTypes } from "@config/types";
@@ -12,11 +13,28 @@ const Featured = ({
   secondary,
   live,
   thumbnail,
-  code,
+  github,
+  youtube,
   title,
   description,
   tech,
 }: ProjectTypes) => {
+  const swiperContainerRef = useRef<HTMLDivElement>(null);
+
+  const handleSwipe = (direction: "left" | "right") => {
+    const container = swiperContainerRef.current as HTMLDivElement;
+    const scrollAmount = 200; // Adjust this value based on your design
+
+    if (container) {
+      if (direction === "left") {
+        // Property 'scrollLeft' does not exist on type 'never'.ts(2339)
+        container.scrollLeft -= scrollAmount;
+      } else {
+        container.scrollLeft += scrollAmount;
+      }
+    }
+  };
+
   const __renderImage = () => {
     return (
       <div className="col-span-7 relative hidden sm:block">
@@ -81,19 +99,29 @@ const Featured = ({
               <Link
                 href={`${live}`}
                 target="_blank"
-                className="hover:text-sky-400 transition-all duration-300 hover:scale-110 text-2xl"
+                className="hover:text-sky-400 transition-all duration-300 hover:scale-110"
               >
-                <HiOutlineExternalLink />
+                <RiExternalLinkLine className="h-6 w-6" />
               </Link>
             )}
 
-            {code && (
+            {github && (
               <Link
-                href={`${code}`}
+                href={`${github}`}
                 target="_blank"
-                className="hover:text-sky-400 transition-all duration-300 hover:scale-90 text-[1.2rem]"
+                className="hover:text-sky-400 transition-all duration-300 hover:scale-110"
               >
-                <FiGithub />
+                <BsGithub className="w-5 h-5" />
+              </Link>
+            )}
+
+            {youtube && (
+              <Link
+                href={`${youtube}`}
+                target="_blank"
+                className="hover:text-sky-400 transition-all duration-300 hover:scale-110"
+              >
+                <IoLogoYoutube className="w-5 h-5" />
               </Link>
             )}
           </div>
