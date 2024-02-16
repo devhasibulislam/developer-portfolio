@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/legacy/image";
 //
 import { RiExternalLinkLine, RiFilePaperLine } from "react-icons/ri";
-import { BsGithub  } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import { IoLogoYoutube } from "react-icons/io5";
 //
 import { motionStep } from "@config/motion";
@@ -65,8 +65,8 @@ const ProjectCard = ({
         <Link href={`${live}`}>
           <div className="h-[200px] w-full relative rounded-xl overflow-hidden">
             <Image
-              src={`/images/projects/${thumbnail}`}
-              blurDataURL={`/images/projects/${thumbnail}`}
+              src={`https://github.com/devhasibulislam/developer-portfolio/blob/master/public/images/projects/${thumbnail}?raw=true`}
+              blurDataURL={`https://github.com/devhasibulislam/developer-portfolio/blob/master/public/images/projects/${thumbnail}?raw=true`}
               className="transition-all duration-300 group-hover:scale-125"
               layout="fill"
               objectFit="cover"
@@ -83,7 +83,9 @@ const ProjectCard = ({
         <div className="flex items-center justify-between my-5">
           <RiFilePaperLine className="text-2xl text-sky-400" />
 
-          <div className={"flex justify-end items-center gap-x-3 text-slate-300"}>
+          <div
+            className={"flex justify-end items-center gap-x-3 text-slate-300"}
+          >
             {live && (
               <Link
                 href={`${live}`}

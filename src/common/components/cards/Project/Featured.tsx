@@ -21,28 +21,14 @@ const Featured = ({
 }: ProjectTypes) => {
   const swiperContainerRef = useRef<HTMLDivElement>(null);
 
-  const handleSwipe = (direction: "left" | "right") => {
-    const container = swiperContainerRef.current as HTMLDivElement;
-    const scrollAmount = 200; // Adjust this value based on your design
-
-    if (container) {
-      if (direction === "left") {
-        // Property 'scrollLeft' does not exist on type 'never'.ts(2339)
-        container.scrollLeft -= scrollAmount;
-      } else {
-        container.scrollLeft += scrollAmount;
-      }
-    }
-  };
-
   const __renderImage = () => {
     return (
       <div className="col-span-7 relative hidden sm:block">
         <Link href={`${live}`}>
           <div className="h-[350px] w-full relative rounded-xl overflow-hidden">
             <Image
-              src={`/images/projects/${thumbnail}`}
-              blurDataURL={`/images/projects/${thumbnail}`}
+              src={`https://github.com/devhasibulislam/developer-portfolio/blob/master/public/images/projects/${thumbnail}?raw=true`}
+              blurDataURL={`https://github.com/devhasibulislam/developer-portfolio/blob/master/public/images/projects/${thumbnail}?raw=true`}
               className="transition-all duration-300 group-hover:scale-125"
               layout="fill"
               objectFit="cover"
