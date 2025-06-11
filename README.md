@@ -80,7 +80,7 @@ A stunning, modern portfolio website built with cutting-edge technologies and be
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/lightify97/portfolio.git
+   git clone https://github.com/devhasibulislam/portfolio.git
    cd portfolio
    ```
 
@@ -248,15 +248,15 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/lightify97/portfolio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/devhasibulislam/portfolio/issues).
 
 ## 👨‍💻 Author
 
 **Hasibul Islam**
 
-- Portfolio: [https://mramazan.dev](https://mramazan.dev)
-- GitHub: [@lightify97](https://github.com/lightify97)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/m-ramazan)
+- Portfolio: [https://devhasibulislam.vercel.app](https://devhasibulislam.vercel.app)
+- GitHub: [@devhasibulislam](https://github.com/devhasibulislam)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/devhasibulislam)
 - Email: devhasibulislam@gmail.com
 
 ## 🙏 Acknowledgments
