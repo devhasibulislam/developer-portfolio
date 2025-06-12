@@ -22,6 +22,9 @@ export const metadata: Metadata = {
       "Portfolio of Hasibul Islam, a passionate full-stack developer specializing in modern web technologies.",
     type: "website",
   },
+  other: {
+    "google-site-verification": "sZPmFgCCG9yDDjVqCsdembcfkOLDihLkjCWdXkxnEVI",
+  },
 };
 
 export default function RootLayout({
