@@ -16,11 +16,32 @@ export const metadata: Metadata = {
   keywords:
     "Hasibul Islam, Full Stack Developer, React, Next.js, Web Development, Portfolio",
   authors: [{ name: "Hasibul Islam" }],
+  metadataBase: new URL("https://devhasibulislam.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Hasibul Islam - Full Stack Developer",
     description:
       "Portfolio of Hasibul Islam, a passionate full-stack developer specializing in modern web technologies.",
     type: "website",
+    url: "https://devhasibulislam.vercel.app/",
+    siteName: "Hasibul Islam - Portfolio",
+    images: [
+      {
+        url: "/opengraph-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Hasibul Islam - Full Stack Developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hasibul Islam - Full Stack Developer",
+    description:
+      "Portfolio of Hasibul Islam, a passionate full-stack developer specializing in modern web technologies.",
+    images: ["/opengraph-image.jpg"],
   },
   other: {
     "google-site-verification": "sZPmFgCCG9yDDjVqCsdembcfkOLDihLkjCWdXkxnEVI",
