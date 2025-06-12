@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Hasibul Islam - Full Stack Developer",
+    title: "Hasibul Islam - Resume of a Passionate Developer",
     description:
-      "Portfolio of Hasibul Islam, a passionate full-stack developer specializing in modern web technologies.",
+      "Facebook Graph APIs & WhatsApp Business Expert | Custom Web & SaaS Solutions Developer",
     type: "website",
     url: "https://devhasibulislam.vercel.app/",
     siteName: "Hasibul Islam - Portfolio",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hasibul Islam - Full Stack Developer",
+    title: "Hasibul Islam - Resume of a Passionate Developer",
     description:
-      "Portfolio of Hasibul Islam, a passionate full-stack developer specializing in modern web technologies.",
+      "Facebook Graph APIs & WhatsApp Business Expert | Custom Web & SaaS Solutions Developer",
     images: ["/opengraph-image.jpg"],
   },
   other: {
