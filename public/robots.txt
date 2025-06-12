@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://devhasibulislam.vercel.app/sitemap.xml
