@@ -22,6 +22,21 @@ type Certificate = {
 
 const certifications: Certificate[] = [
   {
+    title: "API Orchestration - Associate",
+    provider: "Apollo Odyssey",
+    platform: "Apollo GraphQL",
+    issued: "Jun 13, 2025",
+    credentialId: "93e83ca0-865e-4...",
+    credentialUrl:
+      "https://www.apollographql.com/tutorials/certifications/93e83ca0-865e-4b6b-87a3-ec411ec1c1d6",
+    skills: ["API", "Testing", "Scripting", "GraphQL", "WebSocket"],
+    providerIcon: "simple-icons:apollographql",
+    platformIcon: "logos:apollostack",
+    color: "from-blue-500 to-blue-600",
+    providerIconSize: 64,
+    platformIconSize: 64,
+  },
+  {
     title: "Postman API Fundamentals Student Expert",
     provider: "Postman Academy",
     platform: "Postman",
@@ -45,7 +60,7 @@ const certifications: Certificate[] = [
     credentialUrl:
       "https://freecodecamp.org/certification/hasibulislam999/javascript-algorithms-and-data-structures",
     skills: ["JavaScript", "Algorithms", "TypeScript", "Data Structures"],
-    providerIcon: "lineicons:javascript",
+    providerIcon: "fa6-brands:free-code-camp",
     platformIcon: "logos:typescript",
     color: "from-blue-500 to-blue-600",
     providerIconSize: 64,
@@ -60,8 +75,8 @@ const certifications: Certificate[] = [
     credentialUrl:
       "https://drive.google.com/file/d/1JXxzs6CqPP61TrMn_C9PczUcb8qwHLI1/view?usp=sharing",
     skills: ["JavaScript", "Database", "Deployment", "Full Stack Development"],
-    providerIcon: "lineicons:mongodb",
-    platformIcon: "logos:mongodb",
+    providerIcon: "lineicons:monitor-code",
+    platformIcon: "logos:web-dev",
     color: "from-blue-500 to-blue-600",
     providerIconSize: 64,
     platformIconSize: 88,
@@ -111,7 +126,7 @@ const certifications: Certificate[] = [
     credentialUrl:
       "https://freecodecamp.org/certification/hasibulislam999/responsive-web-design",
     skills: ["HTML", "CSS", "JavaScript", "Design", "Accessibility"],
-    providerIcon: "lineicons:javascript",
+    providerIcon: "fa6-brands:free-code-camp",
     platformIcon: "logos:typescript",
     color: "from-blue-500 to-blue-600",
     providerIconSize: 64,
